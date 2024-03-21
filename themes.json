@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Simple Wiki",
+    "description": "Lume theme to create a wiki for notes or documentation",
+    "repo": "https://github.com/lumeland/theme-simple-wiki",
+    "demo": "https://lumeland.github.io/theme-simple-wiki/",
+    "tags": ["simple", "wiki", "documentation"],
+    "screens": {
+      "desktop": [
+        "/screens/simple_wiki/desktop.png",
+        "/screens/simple_wiki/desktop_dark.png"
+      ],
+      "mobile": [
+        "/screens/simple_wiki/mobile.png",
+        "/screens/simple_wiki/mobile_dark.png"
+      ]
+    },
+    "module": {
+      "name": "wiki",
+      "import": "https://deno.land/x/lume_theme_simple_wiki/mod.ts"
+    }
+  },
+  {
+    "name": "Simple Blog",
+    "description": "Lume theme to create a blog",
+    "repo": "https://github.com/lumeland/theme-simple-blog",
+    "demo": "https://lumeland.github.io/theme-simple-blog/",
+    "tags": ["simple", "blog"],
+    "screens": {
+      "desktop": [
+        "/screens/simple_blog/desktop.png",
+        "/screens/simple_blog/desktop_dark.png"
+      ],
+      "mobile": [
+        "/screens/simple_blog/mobile.png",
+        "/screens/simple_blog/mobile_dark.png"
+      ]
+    },
+    "module": {
+      "name": "blog",
+      "import": "https://deno.land/x/lume_theme_simple_blog/mod.ts"
+    }
+  },
+  {
+    "name": "Simple Me",
+    "description": "Lume theme to create a contact page with bio and links",
+    "repo": "https://github.com/lumeland/theme-simple-me",
+    "demo": "https://lumeland.github.io/theme-simple-me/",
+    "tags": ["simple", "links", "bio"],
+    "screens": {
+      "desktop": [
+        "/screens/simple_me/desktop.png",
+        "/screens/simple_me/desktop_dark.png"
+      ],
+      "mobile": [
+        "/screens/simple_me/mobile.png",
+        "/screens/simple_me/mobile_dark.png"
+      ]
+    },
+    "module": {
+      "name": "me",
+      "import": "https://deno.land/x/lume_theme_simple_me/mod.ts"
+    }
+  }
+]
