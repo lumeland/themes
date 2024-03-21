@@ -76,7 +76,10 @@
       "name": "me",
       "origin": "https://deno.land/x/lume_theme_simple_me",
       "main": "/mod.ts",
-      "cms": "/_cms.ts"
+      "cms": "/_cms.ts",
+      "files": [
+        "/index.yml"
+      ]
     }
   },
   {
