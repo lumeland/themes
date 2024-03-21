@@ -21,7 +21,8 @@
     },
     "module": {
       "name": "wiki",
-      "import": "https://deno.land/x/lume_theme_simple_wiki/mod.ts"
+      "origin": "https://deno.land/x/lume_theme_simple_wiki",
+      "main": "/mod.ts"
     }
   },
   {
@@ -46,7 +47,9 @@
     },
     "module": {
       "name": "blog",
-      "import": "https://deno.land/x/lume_theme_simple_blog/mod.ts"
+      "origin": "https://deno.land/x/lume_theme_simple_blog",
+      "main": "/mod.ts",
+      "cms": "/_cms.ts"
     }
   },
   {
@@ -71,7 +74,9 @@
     },
     "module": {
       "name": "me",
-      "import": "https://deno.land/x/lume_theme_simple_me/mod.ts"
+      "origin": "https://deno.land/x/lume_theme_simple_me",
+      "main": "/mod.ts",
+      "cms": "/_cms.ts"
     }
   },
   {
@@ -96,7 +101,8 @@
     },
     "module": {
       "name": "shiraha",
-      "import": "https://deno.land/x/lume_theme_shiraha/mod.ts"
+      "origin": "https://deno.land/x/lume_theme_shiraha",
+      "main": "/mod.ts"
     }
   },
   {
@@ -121,7 +127,8 @@
     },
     "module": {
       "name": "lumocs",
-      "import": "https://deno.land/x/lumocs/mod.ts"
+      "origin": "https://deno.land/x/lumocs",
+      "main": "/mod.ts"
     }
   }
 ]
