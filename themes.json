@@ -23,6 +23,7 @@
       "name": "wiki",
       "origin": "https://deno.land/x/lume_theme_simple_wiki",
       "main": "/mod.ts",
+      "cms": "/_cms.ts",
       "src": [
         "/index.md",
         "/404.md",
