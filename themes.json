@@ -22,7 +22,12 @@
     "module": {
       "name": "wiki",
       "origin": "https://deno.land/x/lume_theme_simple_wiki",
-      "main": "/mod.ts"
+      "main": "/mod.ts",
+      "src": [
+        "/index.md",
+        "/404.md",
+        "/favicon.png"
+      ]
     }
   },
   {
