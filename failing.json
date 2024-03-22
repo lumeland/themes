@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Shiraha",
+    "description": "Material 3-inspired Lume Blog Theme",
+    "tags": ["material", "blog"],
+    "author": {
+      "name": "藍+85CD",
+      "url": "https://kwaa.dev/"
+    },
+    "repo": "https://github.com/importantimport/lume_theme_shiraha",
+    "demo": "https://lume.shiraha.js.org/",
+    "screens": {
+      "desktop": [
+        "/screens/shiraha/desktop.png",
+        "/screens/shiraha/desktop_dark.png"
+      ],
+      "mobile": [
+        "/screens/shiraha/mobile.png",
+        "/screens/shiraha/mobile_dark.png"
+      ]
+    },
+    "module": {
+      "name": "shiraha",
+      "origin": "https://deno.land/x/lume_theme_shiraha",
+      "main": "/mod.ts"
+    }
+  }
+]
