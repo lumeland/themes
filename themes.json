@@ -49,7 +49,12 @@
       "name": "blog",
       "origin": "https://deno.land/x/lume_theme_simple_blog",
       "main": "/mod.ts",
-      "cms": "/_cms.ts"
+      "cms": "/_cms.ts",
+      "src": [
+        "/_data.yml",
+        "/404.md",
+        "/favicon.png"
+      ]
     }
   },
   {
@@ -76,10 +81,12 @@
       "name": "me",
       "origin": "https://deno.land/x/lume_theme_simple_me",
       "main": "/mod.ts",
-      "files": {
-        "/_cms.ts": "/_cms.ts",
-        "/index.yml": "/src/index.yml"
-      }
+      "cms": "/_cms.ts",
+      "src": [
+        "/index.yml",
+        "/avatar.jpg",
+        "/favicon.svg"
+      ]
     }
   },
   {
