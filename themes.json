@@ -1,5 +1,6 @@
 [
   {
+    "id": "simple-wiki",
     "name": "Simple Wiki",
     "description": "Lume theme to create a wiki for notes or documentation",
     "tags": ["simple", "wiki", "documentation"],
@@ -32,6 +33,7 @@
     }
   },
   {
+    "id": "simple-blog",
     "name": "Simple Blog",
     "description": "Lume theme to create a blog",
     "tags": ["simple", "blog"],
@@ -64,6 +66,7 @@
     }
   },
   {
+    "id": "simple-me",
     "name": "Simple Me",
     "description": "Lume theme to create a contact page with bio and links",
     "tags": ["simple", "links", "bio"],
@@ -96,6 +99,7 @@
     }
   },
   {
+    "id": "lumocs",
     "name": "Lumocs",
     "description": "Ready to use dark/light documentation theme",
     "tags": ["documentation"],
