@@ -10,16 +10,14 @@
     },
     "repo": "https://github.com/lumeland/theme-simple-wiki",
     "demo": "https://lumeland.github.io/theme-simple-wiki/",
-    "screens": {
-      "desktop": [
-        "/screens/simple_wiki/desktop.png",
-        "/screens/simple_wiki/desktop_dark.png"
-      ],
-      "mobile": [
-        "/screens/simple_wiki/mobile.png",
-        "/screens/simple_wiki/mobile_dark.png"
-      ]
-    },
+    "screens": [
+      {
+        "desktop": "/screens/simple_wiki/desktop.png",
+        "desktop_dark": "/screens/simple_wiki/desktop_dark.png",
+        "mobile": "/screens/simple_wiki/mobile.png",
+        "mobile_dark": "/screens/simple_wiki/mobile_dark.png"
+      }
+    ],
     "module": {
       "name": "wiki",
       "origin": "https://deno.land/x/lume_theme_simple_wiki",
@@ -43,16 +41,14 @@
     },
     "repo": "https://github.com/lumeland/theme-simple-blog",
     "demo": "https://lumeland.github.io/theme-simple-blog/",
-    "screens": {
-      "desktop": [
-        "/screens/simple_blog/desktop.png",
-        "/screens/simple_blog/desktop_dark.png"
-      ],
-      "mobile": [
-        "/screens/simple_blog/mobile.png",
-        "/screens/simple_blog/mobile_dark.png"
-      ]
-    },
+    "screens": [
+      {
+        "desktop": "/screens/simple_blog/desktop.png",
+        "desktop_dark": "/screens/simple_blog/desktop_dark.png",
+        "mobile": "/screens/simple_blog/mobile.png",
+        "mobile_dark": "/screens/simple_blog/mobile_dark.png"
+      }
+    ],
     "module": {
       "name": "blog",
       "origin": "https://deno.land/x/lume_theme_simple_blog",
@@ -76,16 +72,14 @@
     },
     "repo": "https://github.com/lumeland/theme-simple-me",
     "demo": "https://lumeland.github.io/theme-simple-me/",
-    "screens": {
-      "desktop": [
-        "/screens/simple_me/desktop.png",
-        "/screens/simple_me/desktop_dark.png"
-      ],
-      "mobile": [
-        "/screens/simple_me/mobile.png",
-        "/screens/simple_me/mobile_dark.png"
-      ]
-    },
+    "screens": [
+      {
+        "desktop": "/screens/simple_me/desktop.png",
+        "desktop_dark": "/screens/simple_me/desktop_dark.png",
+        "mobile": "/screens/simple_me/mobile.png",
+        "mobile_dark": "/screens/simple_me/mobile_dark.png"
+      }
+    ],
     "module": {
       "name": "me",
       "origin": "https://deno.land/x/lume_theme_simple_me",
@@ -109,16 +103,14 @@
     },
     "repo": "https://github.com/Hexagon/lumocs",
     "demo": "https://lumocs.56k.guru/",
-    "screens": {
-      "desktop": [
-        "/screens/lumocs/desktop.png",
-        "/screens/lumocs/desktop_dark.png"
-      ],
-      "mobile": [
-        "/screens/lumocs/mobile.png",
-        "/screens/lumocs/mobile_dark.png"
-      ]
-    },
+    "screens": [
+      {
+        "desktop": "/screens/lumocs/desktop.png",
+        "desktop_dark": "/screens/lumocs/desktop_dark.png",
+        "mobile": "/screens/lumocs/mobile.png",
+        "mobile_dark": "/screens/lumocs/mobile_dark.png"
+      }
+    ],
     "module": {
       "name": "lumocs",
       "origin": "https://deno.land/x/lumocs",
