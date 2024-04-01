@@ -123,6 +123,7 @@
     }
   },
   {
+    "id": "shiraha",
     "name": "Shiraha",
     "description": "Material 3-inspired Lume Blog Theme",
     "tags": ["material", "blog"],
