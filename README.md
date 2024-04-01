@@ -58,3 +58,6 @@ An object with the data to import the theme. It has the following fields:
 - **src**: An array of files to be copied to the src folder. By default it
   assumes that the files located in the `/src` folder of the package.
 - **srcdir**: To configure a different `src` folder.
+- **compileOptions**: Additional compile options for Deno.
+- **imports**: Additional imports for the import map.
+- **unstable**: Additional unstable flags for Deno.

@@ -150,6 +150,15 @@
         "/articles/part-1-installation.md",
         "/articles/part-1-writing.md"
       ],
+      "compilerOptions": {
+        "jsx": "precompile",
+        "jsxImportSource": "shiraha",
+        "jsxFactory": "jsx",
+        "jsxFragmentFactory": "Fragment"
+      },
+      "imports": {
+        "shiraha/jsx-runtime": "./jsx-runtime.ts"
+      },
       "unstable": ["ffi"]
     }
   }
