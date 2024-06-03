@@ -186,7 +186,7 @@
       "main": "/mod.ts",
       "srcdir": ".",
       "src": [
-        "/_includes/base.vto"
+        "/_data.json"
       ]
     }
   }
