@@ -162,5 +162,28 @@
       },
       "unstable": ["ffi"]
     }
+  },
+  {
+    "id": "istudymen",
+    "name": "Istudymen",
+    "description": " A simple blog based on Deno and Lume, and a blog theme modified from Tailwind, which is more concise and clear.",
+    "tags": ["tailwind", "blog"],
+    "author": {
+      "name": "Adong",
+      "url": "https://istudymen.github.io/"
+    },
+    "repo": "https://github.com/iStudyMen/lume-theme-blog",
+    "demo": "https://istudymen.github.io/",
+    "screens": [
+      {
+        "desktop": "/screens/istudymen/desktop.png",
+        "mobile": "/screens/istudymen/mobile.png"
+      }
+    ],
+    "module": {
+      "name": "blog",
+      "origin": "https://deno.land/x/lume_theme_blog",
+      "main": "/mod.ts"
+    }
   }
 ]
