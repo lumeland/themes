@@ -55,8 +55,7 @@ An object with the data to import the theme. It has the following fields:
 - **main**: The path to the main module to import.
 - **cms**: If the theme has the CMS configured, the name of the configuration
   file.
-- **src**: An array of files to be copied to the src folder. By default it
-  assumes that the files located in the `/src` folder of the package.
+- **src**: An array of files to be copied to the src folder.
 - **srcdir**: To configure a different `src` folder.
 - **compileOptions**: Additional compile options for Deno.
 - **imports**: Additional imports for the import map.

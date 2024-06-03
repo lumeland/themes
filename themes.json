@@ -23,6 +23,7 @@
       "origin": "https://deno.land/x/lume_theme_simple_wiki",
       "main": "/mod.ts",
       "cms": "/_cms.ts",
+      "srcdir": "/src",
       "src": [
         "/index.md",
         "/404.md",
@@ -54,6 +55,7 @@
       "origin": "https://deno.land/x/lume_theme_simple_blog",
       "main": "/mod.ts",
       "cms": "/_cms.ts",
+      "srcdir": "/src",
       "src": [
         "/_data.yml",
         "/404.md",
@@ -85,6 +87,7 @@
       "origin": "https://deno.land/x/lume_theme_simple_me",
       "main": "/mod.ts",
       "cms": "/_cms.ts",
+      "srcdir": "/src",
       "src": [
         "/index.yml",
         "/avatar.jpg",
@@ -146,6 +149,7 @@
       "origin": "https://deno.land/x/lume_theme_shiraha",
       "main": "/mod.ts",
       "cms": "/_cms.ts",
+      "srcdir": "/src",
       "src": [
         "/articles/getting-started.md",
         "/articles/part-1-installation.md",
@@ -184,7 +188,6 @@
       "name": "blog",
       "origin": "https://deno.land/x/lume_theme_blog",
       "main": "/mod.ts",
-      "srcdir": ".",
       "src": [
         "/_data.json"
       ]
