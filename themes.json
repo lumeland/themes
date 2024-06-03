@@ -183,7 +183,11 @@
     "module": {
       "name": "blog",
       "origin": "https://deno.land/x/lume_theme_blog",
-      "main": "/mod.ts"
+      "main": "/mod.ts",
+      "srcdir": ".",
+      "src": [
+        "/_includes/base.vto"
+      ]
     }
   }
 ]
