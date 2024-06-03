@@ -170,7 +170,7 @@
   {
     "id": "istudymen",
     "name": "Istudymen",
-    "description": " A simple blog based on Deno and Lume, and a blog theme modified from Tailwind, which is more concise and clear.",
+    "description": "A simple blog based on Deno and Lume, and a blog theme modified from Tailwind, which is more concise and clear.",
     "tags": ["tailwind", "blog"],
     "author": {
       "name": "Adong",
