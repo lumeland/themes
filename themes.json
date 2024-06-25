@@ -20,6 +20,7 @@
     ],
     "module": {
       "name": "wiki",
+      "id": "denoland/lume_theme_simple_wiki",
       "origin": "https://deno.land/x/lume_theme_simple_wiki",
       "main": "/mod.ts",
       "cms": "/_cms.ts",
@@ -52,6 +53,7 @@
     ],
     "module": {
       "name": "blog",
+      "id": "denoland/lume_theme_simple_blog",
       "origin": "https://deno.land/x/lume_theme_simple_blog",
       "main": "/mod.ts",
       "cms": "/_cms.ts",
@@ -84,6 +86,7 @@
     ],
     "module": {
       "name": "me",
+      "id": "denoland/lume_theme_simple_me",
       "origin": "https://deno.land/x/lume_theme_simple_me",
       "main": "/mod.ts",
       "cms": "/_cms.ts",
@@ -116,6 +119,7 @@
     ],
     "module": {
       "name": "lumocs",
+      "id": "denoland/lumocs",
       "origin": "https://deno.land/x/lumocs",
       "main": "/mod.ts",
       "srcdir": "/demo-repository/docs/src",
@@ -146,6 +150,7 @@
     ],
     "module": {
       "name": "shiraha",
+      "id": "denoland/lume_theme_shiraha",
       "origin": "https://deno.land/x/lume_theme_shiraha",
       "main": "/mod.ts",
       "cms": "/_cms.ts",
@@ -186,6 +191,7 @@
     ],
     "module": {
       "name": "blog",
+      "id": "denoland/lume_theme_blog",
       "origin": "https://deno.land/x/lume_theme_blog",
       "main": "/mod.ts",
       "src": [
