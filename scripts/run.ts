@@ -1,6 +1,8 @@
 import { close, makeScreenshot } from "./screenshot.ts";
 import themes from "../themes.json" with { type: "json" };
 
+const filter = Deno.args[0];
+
 const sites = [
   {
     id: "shiraha",
@@ -38,9 +40,18 @@ const sites = [
       "https://istudymen.github.io/",
     ],
   },
+  {
+    id: "top",
+    urls: [
+      "https://tarugoconf.github.io/TOP/",
+    ],
+  },
 ];
 
 for (const site of sites) {
+  if (filter && site.id !== filter) {
+    continue;
+  }
   const theme = themes.find((theme) => theme.id === site.id);
   if (!theme) {
     console.error(`Theme not found for site ${site.id}`);

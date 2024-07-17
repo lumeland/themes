@@ -1,6 +1,7 @@
 /// <reference lib="dom" />
 
 import { launch } from "jsr:@astral/astral@0.4.3";
+import { dirname } from "jsr:@std/path@1.0.0/dirname";
 
 const browser = await launch();
 
@@ -30,6 +31,11 @@ export async function makeScreenshot(
   const screenshot = await page.screenshot({
     format: "png",
   });
+  try {
+    Deno.mkdirSync(dirname(path), { recursive: true });
+  } catch {
+    // Ignore
+  }
   await Deno.writeFile(path, screenshot);
   await page.close();
 }

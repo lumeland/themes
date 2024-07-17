@@ -198,5 +198,45 @@
         "/_data.json"
       ]
     }
+  },
+  {
+    "id": "top",
+    "name": "TOP",
+    "description": "A theme to build a website for a tech event.",
+    "tags": ["event", "tech", "landing"],
+    "author": {
+      "name": "Óscar Otero",
+      "url": "https://oscarotero.com"
+    },
+    "repo": "https://github.com/tarugoconf/TOP",
+    "demo": "https://tarugoconf.github.io/TOP/",
+    "screens": [
+      {
+        "desktop": "/screens/top/desktop.png",
+        "mobile": "/screens/top/mobile.png"
+      }
+    ],
+    "module": {
+      "name": "top",
+      "id": "jsdelivr/tarugoconf/TOP",
+      "origin": "https://cdn.jsdelivr.net/gh/tarugoconf/TOP",
+      "main": "/mod.ts",
+      "cms": "/_cms.ts",
+      "srcdir": "/src",
+      "src": [
+        "/files/logos/logo.png",
+        "/files/people/avatar.webp",
+        "/files/tickets/ticket.png",
+        "/files/favicon.svg",
+        "/pages/code-of-conduct.md",
+        "/pages/legal-terms.md",
+        "/pages/privacy.md",
+        "/block_pages/tickets.yml",
+        "/styles/theme.yml",
+        "/index.yml",
+        "/_data.yml",
+        "/humans.vto"
+      ]
+    }
   }
 ]

@@ -1,0 +1,6 @@
+{
+  "tasks": {
+    "update": "deno run -A scripts/run.ts"
+  },
+  "lock": false
+}
