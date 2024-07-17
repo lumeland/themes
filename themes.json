@@ -232,7 +232,7 @@
         "/pages/legal-terms.md",
         "/pages/privacy.md",
         "/block_pages/tickets.yml",
-        "/styles/theme.yml",
+        "/styles/theme.css",
         "/index.yml",
         "/_data.yml",
         "/humans.vto"
