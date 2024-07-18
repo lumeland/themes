@@ -3,7 +3,12 @@ import themes from "../themes.json" with { type: "json" };
 
 const filter = Deno.args[0];
 
-const sites = [
+interface Site {
+  id: string;
+  urls?: string[];
+}
+
+const sites: Site[] = [
   {
     id: "shiraha",
   },
