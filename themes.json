@@ -201,15 +201,15 @@
   },
   {
     "id": "top",
-    "name": "TOP",
+    "name": "Top",
     "description": "A theme to build a website for a tech event.",
     "tags": ["event", "tech", "landing"],
     "author": {
       "name": "Óscar Otero",
       "url": "https://oscarotero.com"
     },
-    "repo": "https://github.com/tarugoconf/TOP",
-    "demo": "https://tarugoconf.github.io/TOP/",
+    "repo": "https://github.com/tarugoconf/top",
+    "demo": "https://tarugoconf.github.io/top/",
     "screens": [
       {
         "desktop": "/screens/top/desktop.png",

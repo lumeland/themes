@@ -6,45 +6,24 @@ const filter = Deno.args[0];
 const sites = [
   {
     id: "shiraha",
-    urls: [
-      "https://lume.shiraha.js.org/",
-    ],
   },
   {
     id: "lumocs",
-    urls: [
-      "https://lumocs.56k.guru/",
-    ],
   },
   {
     id: "simple-blog",
-    urls: [
-      "https://lumeland.github.io/theme-simple-blog/",
-    ],
   },
   {
     id: "simple-me",
-    urls: [
-      "https://lumeland.github.io/theme-simple-me/",
-    ],
   },
   {
     id: "simple-wiki",
-    urls: [
-      "https://lumeland.github.io/theme-simple-wiki/",
-    ],
   },
   {
     id: "istudymen",
-    urls: [
-      "https://istudymen.github.io/",
-    ],
   },
   {
     id: "top",
-    urls: [
-      "https://tarugoconf.github.io/TOP/",
-    ],
   },
 ];
 
@@ -58,8 +37,10 @@ for (const site of sites) {
     continue;
   }
 
+  const urls = site.urls ?? [theme.demo];
+
   for (const screen of theme.screens) {
-    const url = site.urls.shift();
+    const url = urls.shift();
 
     if (!url) {
       console.error(`No URL for site ${site.id}`);
