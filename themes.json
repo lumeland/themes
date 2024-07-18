@@ -218,8 +218,8 @@
     ],
     "module": {
       "name": "top",
-      "id": "jsdelivr/tarugoconf/TOP",
-      "origin": "https://cdn.jsdelivr.net/gh/tarugoconf/TOP",
+      "id": "jsdelivr/tarugoconf/top",
+      "origin": "https://cdn.jsdelivr.net/gh/tarugoconf/top",
       "main": "/mod.ts",
       "cms": "/_cms.ts",
       "srcdir": "/src",
