@@ -232,8 +232,8 @@
         "/pages/legal-terms.md",
         "/pages/privacy.md",
         "/block_pages/tickets.yml",
+        "/block_pages/index.yml",
         "/styles/theme.css",
-        "/index.yml",
         "/_data.yml",
         "/humans.vto"
       ]
