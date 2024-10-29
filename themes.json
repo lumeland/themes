@@ -61,7 +61,8 @@
       "src": [
         "/_data.yml",
         "/404.md",
-        "/favicon.png"
+        "/favicon.png",
+        "/posts/instructions.md"
       ]
     }
   },
