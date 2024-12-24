@@ -260,7 +260,7 @@
     "module": {
       "name": "ebook",
       "id": "denoland/lume_theme_ebook",
-      "origin": "https://deno.land/x/lume_theme_ebook",
+      "origin": "https://deno.land/x/lume_theme_book",
       "main": "/mod.ts",
       "srcdir": "/src",
       "src": [
