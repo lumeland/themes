@@ -239,5 +239,36 @@
         "/humans.vto"
       ]
     }
+  },
+  {
+    "id": "ebook",
+    "name": "e-Book",
+    "description": "A theme to create web e-books.",
+    "tags": ["ebook"],
+    "author": {
+      "name": "Óscar Otero",
+      "url": "https://oscarotero.com"
+    },
+    "repo": "https://github.com/lumeland/theme-ebook",
+    "demo": "https://lumeland.github.io/theme-ebook/",
+    "screens": [
+      {
+        "desktop": "/screens/ebook/desktop.png",
+        "mobile": "/screens/ebook/mobile.png"
+      }
+    ],
+    "module": {
+      "name": "ebook",
+      "id": "denoland/lume_theme_ebook",
+      "origin": "https://deno.land/x/lume_theme_ebook",
+      "main": "/mod.ts",
+      "srcdir": "/src",
+      "src": [
+        "/img/favicon.svg",
+        "/img/cover.png",
+        "/index.md",
+        "/_data.yml"
+      ]
+    }
   }
 ]
