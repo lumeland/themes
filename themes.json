@@ -262,11 +262,43 @@
       "id": "denoland/lume_theme_ebook",
       "origin": "https://deno.land/x/lume_theme_book",
       "main": "/mod.ts",
+      "cms": "/_cms.ts",
       "srcdir": "/src",
       "src": [
         "/img/favicon.svg",
         "/img/cover.png",
         "/index.md",
+        "/_data.yml"
+      ]
+    }
+  },
+  {
+    "id": "twitter-archive",
+    "name": "Twitter archive",
+    "description": "A theme to host your Twitter/X archive.",
+    "tags": ["twitter", "archive"],
+    "author": {
+      "name": "Óscar Otero",
+      "url": "https://oscarotero.com"
+    },
+    "repo": "https://github.com/lumeland/theme-simple-twitter",
+    "demo": "https://twitter.oscarotero.gal",
+    "screens": [
+      {
+        "desktop": "/screens/ebook/desktop.png",
+        "mobile": "/screens/ebook/mobile.png"
+      }
+    ],
+    "module": {
+      "name": "twitter",
+      "id": "denoland/lume_theme_simple_twitter",
+      "origin": "https://deno.land/x/lume_theme_simple_twitter",
+      "main": "/mod.ts",
+      "cms": "/_cms.ts",
+      "srcdir": "/src",
+      "src": [
+        "/uploads/favicon.svg",
+        "/_data/tweets.js",
         "/_data.yml"
       ]
     }
