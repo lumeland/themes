@@ -285,8 +285,10 @@
     "demo": "https://twitter.oscarotero.gal",
     "screens": [
       {
-        "desktop": "/screens/ebook/desktop.png",
-        "mobile": "/screens/ebook/mobile.png"
+        "desktop": "/screens/simple_twitter/desktop.png",
+        "desktop_dark": "/screens/simple_twitter/desktop_dark.png",
+        "mobile": "/screens/simple_twitter/mobile.png",
+        "mobile_dark": "/screens/simple_twitter/mobile_dark.png"
       }
     ],
     "module": {
