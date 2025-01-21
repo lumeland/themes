@@ -10,10 +10,16 @@ interface Site {
 
 const sites: Site[] = [
   {
-    id: "shiraha",
+    id: "ebook",
+  },
+  {
+    id: "istudymen",
   },
   {
     id: "lumocs",
+  },
+  {
+    id: "shiraha",
   },
   {
     id: "simple-blog",
@@ -25,10 +31,13 @@ const sites: Site[] = [
     id: "simple-wiki",
   },
   {
-    id: "istudymen",
+    id: "top",
   },
   {
-    id: "top",
+    id: "twitter-archive",
+  },
+  {
+    id: "xeo",
   },
 ];
 
