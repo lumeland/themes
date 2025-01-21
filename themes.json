@@ -304,5 +304,42 @@
         "/_data.yml"
       ]
     }
+  },
+  {
+    "id": "xeo",
+    "name": "Xeo",
+    "description": "Variant of Lume Simple Blog theme",
+    "tags": ["blog", "custom", "fonts"],
+    "author": {
+      "name": "Ricky de Laveaga",
+      "url": "https://rdela.com"
+    },
+    "repo": "https://github.com/famebot/xeo",
+    "demo": "https://xeo.land",
+    "screens": [
+      {
+        "desktop": "/screens/xeo/desktop.png",
+        "desktop_dark": "/screens/xeo/desktop_dark.png",
+        "mobile": "/screens/xeo/mobile.png",
+        "mobile_dark": "/screens/xeo/mobile_dark.png"
+      }
+    ],
+    "module": {
+      "name": "xeo",
+      "id": "denoland/xeo",
+      "origin": "https://deno.land/x/xeo",
+      "main": "/mod.ts",
+      "cms": "/_cms.ts",
+      "srcdir": "/",
+      "src": [
+        "/_config.json",
+        "/_data.yml",
+        "/404.md",
+        "/favicon.png",
+        "/pages/contact.md",
+        "/posts/differences.md",
+        "/posts/instructions.md"
+      ]
+    }
   }
 ]
