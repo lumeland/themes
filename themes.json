@@ -342,7 +342,6 @@
       "cms": "/_cms.ts",
       "srcdir": "/",
       "src": [
-        "/_config.json",
         "/_data.yml",
         "/404.md",
         "/favicon.png",
