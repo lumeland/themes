@@ -350,5 +350,37 @@
         "/posts/instructions.md"
       ]
     }
+  },
+  {
+    "id": "pro-file",
+    "name": "pro-file",
+    "description": "A theme to create a simple resume website.",
+    "tags": ["cv", "resume"],
+    "lume_version": 2,
+    "author": {
+      "name": "Nap Joseph Calub",
+      "url": "https://napjose.ph"
+    },
+    "repo": "https://github.com/wewillcraft/pro-file",
+    "demo": "https://pro-file.willcraft.software",
+    "screens": [
+      {
+        "desktop": "/screens/pro-file/desktop.png",
+        "mobile": "/screens/pro-file/mobile.png"
+      }
+    ],
+    "module": {
+      "name": "pro_file",
+      "id": "denoland/pro_file",
+      "origin": "https://deno.land/x/pro_file",
+      "main": "/mod.ts",
+      "cms": "/_cms.ts",
+      "srcdir": "/src",
+      "src": [
+        "/favicon.svg",
+        "/index.yml",
+        "/_data.yml"
+      ]
+    }
   }
 ]
