@@ -252,7 +252,7 @@
     "name": "e-Book",
     "description": "A theme to create web e-books.",
     "tags": ["ebook"],
-    "lume_version": 2,
+    "lume_version": 3,
     "author": {
       "name": "Óscar Otero",
       "url": "https://oscarotero.com"
