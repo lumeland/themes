@@ -285,7 +285,7 @@
     "name": "Twitter archive",
     "description": "A theme to host your Twitter/X archive.",
     "tags": ["twitter", "archive"],
-    "lume_version": 2,
+    "lume_version": 3,
     "author": {
       "name": "Óscar Otero",
       "url": "https://oscarotero.com"
