@@ -38,7 +38,7 @@
     "name": "Simple Blog",
     "description": "Lume theme to create a blog",
     "tags": ["simple", "blog"],
-    "lume_version": 2,
+    "lume_version": 3,
     "author": {
       "name": "Óscar Otero",
       "url": "https://oscarotero.com"
