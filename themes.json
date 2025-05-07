@@ -73,7 +73,7 @@
     "name": "Simple Me",
     "description": "Lume theme to create a contact page with bio and links",
     "tags": ["simple", "links", "bio"],
-    "lume_version": 2,
+    "lume_version": 3,
     "author": {
       "name": "Óscar Otero",
       "url": "https://oscarotero.com"
