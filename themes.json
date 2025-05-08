@@ -211,7 +211,7 @@
     "name": "Top",
     "description": "A theme to build a website for a tech event.",
     "tags": ["event", "tech", "landing"],
-    "lume_version": 2,
+    "lume_version": 3,
     "author": {
       "name": "Óscar Otero",
       "url": "https://oscarotero.com"
