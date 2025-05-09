@@ -6,57 +6,94 @@ setup new Lume projects.
 
 ## Data schema
 
-Every theme must have the following fields:
+```ts
+interface Theme {
+  /**
+   * An unique identifier for the theme.
+   * It's used to install the theme using the `--theme=id` flag.
+   */
+  id: string;
 
-### id
+  /** The name of the theme */
+  name: string;
 
-An unique identifier for the theme. It's used to install the theme using the
-`--theme=id` flag.
+  /** A short description of the theme. */
+  description: string;
 
-### name
+  /** An array of tags to search and filter. */
+  tags: string[];
 
-The name of the theme
+  /** The author of the theme */
+  author: {
+    name: string;
+    url: string;
+  };
 
-### description
+  /** The URL of the Git repository with the theme code. */
+  repo: string;
 
-A short description of the theme.
+  /** An URL with a demo of the theme. */
+  demo: string;
 
-### tags
+  /**
+   * An array of objects with screenshots of the theme.
+   * Every screenshot can have four versions
+   * The images are stored in the `/screens` directory.
+   */
+  screens: Array<{
+    desktop: string;
+    desktop_dark?: string;
+    mobile?: string;
+    mobile_dark?: string;
+  }>;
 
-An array of tags. It helps to search and filter themes.
+  /** An object with the data to import the theme */
+  module: {
+    /**
+     * The module name. Used as the variable name to import the module:
+     * `import [name] from [specifier]`
+     */
+    name: string;
 
-### author
+    /**
+     * Module Id in the format [registry]/[package].
+     * Supported registered so far: denoland, jsdelivr
+     */
+    id: string;
 
-An object with the name of the author and an URL.
+    /**
+     * URL origin to create the import map
+     * The URL MUST NOT include the version
+     * it's obtained and updated automatically
+     */
+    origin: string;
 
-### repo
+    /* The path to the main module to import (ex: `/mod.ts`) */
+    main: string;
 
-The URL of the GIT repository with the theme code.
+    /**
+     * If the theme includes LumeCMS, the name of the configuration file
+     * ex: `/_cms.ts`
+     */
+    cms?: string;
 
-### demo
+    /** An array of files to be copied to the src folder. */
+    src?: string[];
 
-An URL with a demo of the theme.
+    /**
+     * The path of the src directory in the theme repo if it's not the root.
+     * ex: `/src`
+     */
+    srcdir?: string;
 
-### screens
+    /** Optional compile options to include in the deno.json file. */
+    compileOptions?: Record<string, unknown>;
 
-An array of objects with screenshots of the theme. Every screenshot should have
-four versions: `desktop`, `desktop_dark`, `mobile` and `mobile_dark`. The images
-are stored in the folder `screens`.
+    /** Optional imports for the import map. */
+    imports?: Record<string, string>;
 
-### module
-
-An object with the data to import the theme. It has the following fields:
-
-- **name**: The module name. It's used to generate the code to import the module
-  like `import [name] from [specifier]`.
-- **origin**: The origin of the module. Only `land/x` registry is supported
-  currently. The URL **must not have the version** (the version is obtained and
-  updated automatically).
-- **main**: The path to the main module to import.
-- **cms**: If the theme has the CMS configured, the name of the configuration
-  file.
-- **src**: An array of files to be copied to the src folder.
-- **srcdir**: To configure a different `src` folder.
-- **compileOptions**: Additional compile options for Deno.
-- **imports**: Additional imports for the import map.
-- **unstable**: Additional unstable flags for Deno.
+    /** Optional unstable flags for Deno. */
+    unstable?: string[];
+  };
+}
+```
