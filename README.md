@@ -23,6 +23,9 @@ interface Theme {
   /** An array of tags to search and filter. */
   tags: string[];
 
+  /** Lume version required. Everything but `3` is ignored. */
+  lume_version: number;
+
   /** The author of the theme */
   author: {
     name: string;
