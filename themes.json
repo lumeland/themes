@@ -319,7 +319,7 @@
     "name": "Xeo",
     "description": "Variant of Lume Simple Blog theme",
     "tags": ["blog", "custom", "fonts"],
-    "lume_version": 2,
+    "lume_version": 3,
     "author": {
       "name": "Ricky de Laveaga",
       "url": "https://rdela.com"
