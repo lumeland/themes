@@ -1,0 +1,5 @@
+/.gitattributes export-ignore
+/.nojekyll export-ignore
+/.vscode export-ignore
+/deno.json export-ignore
+/scripts export-ignore
