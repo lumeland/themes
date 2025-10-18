@@ -22,7 +22,7 @@
     "module": {
       "name": "wiki",
       "id": "denoland/lume_theme_simple_wiki",
-      "origin": "https://deno.land/x/lume_theme_simple_wiki",
+      "origin": "https://cdn.jsdelivr.net/gh/lumeland/theme-simple-wiki",
       "main": "/mod.ts",
       "cms": "/_cms.ts",
       "srcdir": "/src",
@@ -56,7 +56,7 @@
     "module": {
       "name": "blog",
       "id": "denoland/lume_theme_simple_blog",
-      "origin": "https://cdn.jsdelivr.net/gh/lumeland/theme-simple-blog/",
+      "origin": "https://cdn.jsdelivr.net/gh/lumeland/theme-simple-blog",
       "main": "/mod.ts",
       "cms": "/_cms.ts",
       "srcdir": "/src",
@@ -91,7 +91,7 @@
     "module": {
       "name": "me",
       "id": "denoland/lume_theme_simple_me",
-      "origin": "https://deno.land/x/lume_theme_simple_me",
+      "origin": "https://cdn.jsdelivr.net/gh/lumeland/theme-simple-me",
       "main": "/mod.ts",
       "cms": "/_cms.ts",
       "srcdir": "/src",
@@ -99,110 +99,6 @@
         "/index.yml",
         "/avatar.jpg",
         "/favicon.svg"
-      ]
-    }
-  },
-  {
-    "id": "lumocs",
-    "name": "Lumocs",
-    "description": "Ready to use dark/light documentation theme",
-    "tags": ["documentation"],
-    "lume_version": 2,
-    "author": {
-      "name": "Hexagon",
-      "url": "https://hexagon.56k.guru/"
-    },
-    "repo": "https://github.com/Hexagon/lumocs",
-    "demo": "https://lumocs.56k.guru/",
-    "screens": [
-      {
-        "desktop": "/screens/lumocs/desktop.png",
-        "desktop_dark": "/screens/lumocs/desktop_dark.png",
-        "mobile": "/screens/lumocs/mobile.png",
-        "mobile_dark": "/screens/lumocs/mobile_dark.png"
-      }
-    ],
-    "module": {
-      "name": "lumocs",
-      "id": "denoland/lumocs",
-      "origin": "https://deno.land/x/lumocs",
-      "main": "/mod.ts",
-      "srcdir": "/demo-repository/docs/src",
-      "src": [
-        "/_data.json",
-        "/index.md"
-      ]
-    }
-  },
-  {
-    "id": "shiraha",
-    "name": "Shiraha",
-    "description": "Material 3-inspired Lume Blog Theme",
-    "tags": ["material", "blog"],
-    "lume_version": 2,
-    "author": {
-      "name": "藍+85CD",
-      "url": "https://kwaa.dev/"
-    },
-    "repo": "https://github.com/importantimport/lume_theme_shiraha",
-    "demo": "https://lume.shiraha.js.org/",
-    "screens": [
-      {
-        "desktop": "/screens/shiraha/desktop.png",
-        "desktop_dark": "/screens/shiraha/desktop_dark.png",
-        "mobile": "/screens/shiraha/mobile.png",
-        "mobile_dark": "/screens/shiraha/mobile_dark.png"
-      }
-    ],
-    "module": {
-      "name": "shiraha",
-      "id": "denoland/lume_theme_shiraha",
-      "origin": "https://deno.land/x/lume_theme_shiraha",
-      "main": "/mod.ts",
-      "cms": "/_cms.ts",
-      "srcdir": "/src",
-      "src": [
-        "/articles/getting-started.md",
-        "/articles/part-1-installation.md",
-        "/articles/part-1-writing.md"
-      ],
-      "compilerOptions": {
-        "jsx": "precompile",
-        "jsxImportSource": "shiraha",
-        "jsxFactory": "jsx",
-        "jsxFragmentFactory": "Fragment"
-      },
-      "imports": {
-        "shiraha/jsx-runtime": "./jsx-runtime.ts"
-      },
-      "unstable": ["ffi"]
-    }
-  },
-  {
-    "id": "istudymen",
-    "name": "Istudymen",
-    "description": "A simple blog based on Deno and Lume, and a blog theme modified from Tailwind, which is more concise and clear.",
-    "tags": ["tailwind", "blog"],
-    "lume_version": 2,
-    "author": {
-      "name": "Adong",
-      "url": "https://istudymen.github.io/"
-    },
-    "repo": "https://github.com/iStudyMen/lume-theme-blog",
-    "demo": "https://istudymen.github.io/",
-    "screens": [
-      {
-        "desktop": "/screens/istudymen/desktop.png",
-        "mobile": "/screens/istudymen/mobile.png"
-      }
-    ],
-    "module": {
-      "name": "blog",
-      "id": "denoland/lume_theme_blog",
-      "origin": "https://deno.land/x/lume_theme_blog",
-      "main": "/mod.ts",
-      "src": [
-        "/_data.json"
       ]
     }
   },
@@ -268,7 +164,7 @@
     "module": {
       "name": "ebook",
       "id": "denoland/lume_theme_ebook",
-      "origin": "https://deno.land/x/lume_theme_book",
+      "origin": "https://cdn.jsdelivr.net/gh/lumeland/theme-ebook",
       "main": "/mod.ts",
       "cms": "/_cms.ts",
       "srcdir": "/src",
@@ -303,7 +199,7 @@
     "module": {
       "name": "twitter",
       "id": "denoland/lume_theme_simple_twitter",
-      "origin": "https://deno.land/x/lume_theme_simple_twitter",
+      "origin": "https://cdn.jsdelivr.net/gh/lumeland/theme-simple-twitter",
       "main": "/mod.ts",
       "cms": "/_cms.ts",
       "srcdir": "/src",
@@ -337,7 +233,7 @@
     "module": {
       "name": "xeo",
       "id": "denoland/xeo",
-      "origin": "https://deno.land/x/xeo",
+      "origin": "https://cdn.jsdelivr.net/gh/famebot/xeo",
       "main": "/mod.ts",
       "cms": "/_cms.ts",
       "srcdir": "/",
@@ -348,38 +244,6 @@
         "/pages/contact.md",
         "/posts/differences.md",
         "/posts/instructions.md"
-      ]
-    }
-  },
-  {
-    "id": "pro-file",
-    "name": "pro-file",
-    "description": "A theme to create a simple resume website.",
-    "tags": ["cv", "resume"],
-    "lume_version": 2,
-    "author": {
-      "name": "Nap Joseph Calub",
-      "url": "https://napjose.ph"
-    },
-    "repo": "https://github.com/wewillcraft/pro-file",
-    "demo": "https://pro-file.willcraft.software",
-    "screens": [
-      {
-        "desktop": "/screens/pro-file/desktop.png",
-        "mobile": "/screens/pro-file/mobile.png"
-      }
-    ],
-    "module": {
-      "name": "pro_file",
-      "id": "denoland/pro_file",
-      "origin": "https://deno.land/x/pro_file",
-      "main": "/mod.ts",
-      "cms": "/_cms.ts",
-      "srcdir": "/src",
-      "src": [
-        "/favicon.svg",
-        "/index.yml",
-        "/_data.yml"
       ]
     }
   }
