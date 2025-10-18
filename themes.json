@@ -56,7 +56,7 @@
     "module": {
       "name": "blog",
       "id": "denoland/lume_theme_simple_blog",
-      "origin": "https://deno.land/x/lume_theme_simple_blog",
+      "origin": "https://cdn.jsdelivr.net/gh/lumeland/theme-simple-blog/",
       "main": "/mod.ts",
       "cms": "/_cms.ts",
       "srcdir": "/src",
