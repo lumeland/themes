@@ -213,7 +213,7 @@
   {
     "id": "xeo",
     "name": "Xeo",
-    "description": "Variant of Lume Simple Blog theme",
+    "description": "A deluxe Lume theme",
     "tags": ["blog", "custom", "fonts"],
     "lume_version": 3,
     "author": {
@@ -240,10 +240,13 @@
       "src": [
         "/_data.yml",
         "/404.md",
-        "/favicon.png",
+        "/favicon.svg",
         "/pages/contact.md",
+        "/posts/2025-12-solstice.md",
+        "/posts/2161-01-16-13-00-00-stardate-foundation.md",
         "/posts/differences.md",
-        "/posts/instructions.md"
+        "/posts/instructions.md",
+        "/posts/no-title/index.md"
       ]
     }
   }
