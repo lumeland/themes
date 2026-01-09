@@ -21,7 +21,7 @@
     ],
     "module": {
       "name": "wiki",
-      "id": "denoland/lume_theme_simple_wiki",
+      "id": "jsdelivr/theme-simple-wiki",
       "origin": "https://cdn.jsdelivr.net/gh/lumeland/theme-simple-wiki",
       "main": "/mod.ts",
       "cms": "/_cms.ts",
@@ -55,7 +55,7 @@
     ],
     "module": {
       "name": "blog",
-      "id": "denoland/lume_theme_simple_blog",
+      "id": "jsdelivr/theme-simple-blog",
       "origin": "https://cdn.jsdelivr.net/gh/lumeland/theme-simple-blog",
       "main": "/mod.ts",
       "cms": "/_cms.ts",
@@ -90,7 +90,7 @@
     ],
     "module": {
       "name": "me",
-      "id": "denoland/lume_theme_simple_me",
+      "id": "jsdelivr/theme-simple-me",
       "origin": "https://cdn.jsdelivr.net/gh/lumeland/theme-simple-me",
       "main": "/mod.ts",
       "cms": "/_cms.ts",
@@ -163,7 +163,7 @@
     ],
     "module": {
       "name": "ebook",
-      "id": "denoland/lume_theme_ebook",
+      "id": "jsdelivr/lumeland/theme-ebook",
       "origin": "https://cdn.jsdelivr.net/gh/lumeland/theme-ebook",
       "main": "/mod.ts",
       "cms": "/_cms.ts",
@@ -198,7 +198,7 @@
     ],
     "module": {
       "name": "twitter",
-      "id": "denoland/lume_theme_simple_twitter",
+      "id": "jsdelivr/lumeland/theme-simple-twitter",
       "origin": "https://cdn.jsdelivr.net/gh/lumeland/theme-simple-twitter",
       "main": "/mod.ts",
       "cms": "/_cms.ts",
@@ -232,7 +232,7 @@
     ],
     "module": {
       "name": "xeo",
-      "id": "denoland/xeo",
+      "id": "jsdelivr/famebot/xeo",
       "origin": "https://cdn.jsdelivr.net/gh/famebot/xeo",
       "main": "/mod.ts",
       "cms": "/_cms.ts",
