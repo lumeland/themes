@@ -4,7 +4,6 @@
     "name": "Simple Wiki",
     "description": "Lume theme to create a wiki for notes or documentation",
     "tags": ["simple", "wiki", "documentation"],
-    "lume_version": 3,
     "author": {
       "name": "Óscar Otero",
       "url": "https://oscarotero.com"
@@ -38,7 +37,6 @@
     "name": "Simple Blog",
     "description": "Lume theme to create a blog",
     "tags": ["simple", "blog"],
-    "lume_version": 3,
     "author": {
       "name": "Óscar Otero",
       "url": "https://oscarotero.com"
@@ -73,7 +71,6 @@
     "name": "Simple Me",
     "description": "Lume theme to create a contact page with bio and links",
     "tags": ["simple", "links", "bio"],
-    "lume_version": 3,
     "author": {
       "name": "Óscar Otero",
       "url": "https://oscarotero.com"
@@ -107,7 +104,6 @@
     "name": "Top",
     "description": "A theme to build a website for a tech event.",
     "tags": ["event", "tech", "landing"],
-    "lume_version": 3,
     "author": {
       "name": "Óscar Otero",
       "url": "https://oscarotero.com"
@@ -148,7 +144,6 @@
     "name": "e-Book",
     "description": "A theme to create web e-books.",
     "tags": ["ebook"],
-    "lume_version": 3,
     "author": {
       "name": "Óscar Otero",
       "url": "https://oscarotero.com"
@@ -181,7 +176,6 @@
     "name": "Twitter archive",
     "description": "A theme to host your Twitter/X archive.",
     "tags": ["twitter", "archive"],
-    "lume_version": 3,
     "author": {
       "name": "Óscar Otero",
       "url": "https://oscarotero.com"
@@ -215,7 +209,6 @@
     "name": "Xeo",
     "description": "A deluxe Lume theme",
     "tags": ["blog", "custom", "fonts"],
-    "lume_version": 3,
     "author": {
       "name": "Ricky de Laveaga",
       "url": "https://rdela.com"
