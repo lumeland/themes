@@ -249,5 +249,36 @@
         "/posts/no-title/index.md"
       ]
     }
+  },
+  {
+    "id": "lumocs",
+    "name": "Lumocs",
+    "description": "Ready to use dark/light documentation theme",
+    "tags": ["documentation"],
+    "author": {
+      "name": "Hexagon",
+      "url": "https://hexagon.56k.guru/"
+    },
+    "repo": "https://github.com/Hexagon/lumocs",
+    "demo": "https://lumocs.56k.guru/",
+    "screens": [
+      {
+        "desktop": "/screens/lumocs/desktop.png",
+        "desktop_dark": "/screens/lumocs/desktop_dark.png",
+        "mobile": "/screens/lumocs/mobile.png",
+        "mobile_dark": "/screens/lumocs/mobile_dark.png"
+      }
+    ],
+    "module": {
+      "name": "lumocs",
+      "id": "jsdelivr/Hexagon/lumocs",
+      "origin": "https://cdn.jsdelivr.net/gh/Hexagon/lumocs",
+      "main": "/mod.ts",
+      "srcdir": "/demo-repository/docs/src",
+      "src": [
+        "/_data.json",
+        "/index.md"
+      ]
+    }
   }
 ]
