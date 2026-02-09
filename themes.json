@@ -67,6 +67,37 @@
     }
   },
   {
+    "id": "simple-epub",
+    "name": "Book (.epub)",
+    "description": "Lume theme to create a book in ePub format",
+    "tags": ["simple", "epub", "book"],
+    "author": {
+      "name": "Óscar Otero",
+      "url": "https://oscarotero.com"
+    },
+    "repo": "https://github.com/lumeland/simple-epub",
+    "demo": "https://lumeland.github.io/simple-epub/",
+    "screens": [
+      {
+        "desktop": "/screens/epub/desktop.png"
+      }
+    ],
+    "module": {
+      "name": "epub",
+      "id": "jsdelivr/theme-simple-epub",
+      "origin": "https://cdn.jsdelivr.net/gh/lumeland/simple-epub",
+      "main": "/mod.ts",
+      "srcdir": "/src",
+      "src": [
+        "/img/cover.jpg",
+        "/2.title_page.md",
+        "/3.dedication.md",
+        "/4.acknowledgements.md",
+        "/5.chapter-1.md"
+      ]
+    }
+  },
+  {
     "id": "simple-me",
     "name": "Simple Me",
     "description": "Lume theme to create a contact page with bio and links",
