@@ -76,7 +76,6 @@
       "url": "https://oscarotero.com"
     },
     "repo": "https://github.com/lumeland/simple-epub",
-    "demo": "https://lumeland.github.io/simple-epub/",
     "screens": [
       {
         "desktop": "/screens/epub/desktop.png"
