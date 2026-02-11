@@ -53,7 +53,7 @@
     ],
     "module": {
       "name": "blog",
-      "id": "jsdelivr/theme-simple-blog",
+      "id": "jsdelivr/lumeland/theme-simple-blog",
       "origin": "https://cdn.jsdelivr.net/gh/lumeland/theme-simple-blog",
       "main": "/mod.ts",
       "cms": "/_cms.ts",
@@ -83,7 +83,7 @@
     ],
     "module": {
       "name": "epub",
-      "id": "jsdelivr/theme-simple-epub",
+      "id": "jsdelivr/lumeland/simple-epub",
       "origin": "https://cdn.jsdelivr.net/gh/lumeland/simple-epub",
       "main": "/mod.ts",
       "srcdir": "/src",
@@ -117,7 +117,7 @@
     ],
     "module": {
       "name": "me",
-      "id": "jsdelivr/theme-simple-me",
+      "id": "jsdelivr/lumeland/theme-simple-me",
       "origin": "https://cdn.jsdelivr.net/gh/lumeland/theme-simple-me",
       "main": "/mod.ts",
       "cms": "/_cms.ts",
