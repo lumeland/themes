@@ -19,8 +19,6 @@
       }
     ],
     "module": {
-      "name": "wiki",
-      "id": "jsdelivr/theme-simple-wiki",
       "origin": "https://cdn.jsdelivr.net/gh/lumeland/theme-simple-wiki",
       "main": "/mod.ts",
       "cms": "/_cms.ts",
@@ -52,8 +50,6 @@
       }
     ],
     "module": {
-      "name": "blog",
-      "id": "jsdelivr/lumeland/theme-simple-blog",
       "origin": "https://cdn.jsdelivr.net/gh/lumeland/theme-simple-blog",
       "main": "/mod.ts",
       "cms": "/_cms.ts",
@@ -82,8 +78,6 @@
       }
     ],
     "module": {
-      "name": "epub",
-      "id": "jsdelivr/lumeland/simple-epub",
       "origin": "https://cdn.jsdelivr.net/gh/lumeland/simple-epub",
       "main": "/mod.ts",
       "srcdir": "/src",
@@ -116,8 +110,6 @@
       }
     ],
     "module": {
-      "name": "me",
-      "id": "jsdelivr/lumeland/theme-simple-me",
       "origin": "https://cdn.jsdelivr.net/gh/lumeland/theme-simple-me",
       "main": "/mod.ts",
       "cms": "/_cms.ts",
@@ -147,8 +139,6 @@
       }
     ],
     "module": {
-      "name": "top",
-      "id": "jsdelivr/tarugoconf/top",
       "origin": "https://cdn.jsdelivr.net/gh/tarugoconf/top",
       "main": "/mod.ts",
       "cms": "/_cms.ts",
@@ -187,8 +177,6 @@
       }
     ],
     "module": {
-      "name": "ebook",
-      "id": "jsdelivr/lumeland/theme-ebook",
       "origin": "https://cdn.jsdelivr.net/gh/lumeland/theme-ebook",
       "main": "/mod.ts",
       "cms": "/_cms.ts",
@@ -221,8 +209,6 @@
       }
     ],
     "module": {
-      "name": "twitter",
-      "id": "jsdelivr/lumeland/theme-simple-twitter",
       "origin": "https://cdn.jsdelivr.net/gh/lumeland/theme-simple-twitter",
       "main": "/mod.ts",
       "cms": "/_cms.ts",
@@ -254,8 +240,6 @@
       }
     ],
     "module": {
-      "name": "xeo",
-      "id": "jsdelivr/famebot/xeo",
       "origin": "https://cdn.jsdelivr.net/gh/famebot/xeo",
       "main": "/mod.ts",
       "cms": "/_cms.ts",
@@ -293,14 +277,46 @@
       }
     ],
     "module": {
-      "name": "lumocs",
-      "id": "jsdelivr/Hexagon/lumocs",
       "origin": "https://cdn.jsdelivr.net/gh/Hexagon/lumocs",
       "main": "/mod.ts",
       "srcdir": "/demo-repository/docs/src",
       "src": [
         "/_data.json",
         "/index.md"
+      ]
+    }
+  },
+  {
+    "id": "sono",
+    "name": "Soño",
+    "description": "An image gallery theme for Lume",
+    "tags": ["gallery"],
+    "author": {
+      "name": "koikurasu",
+      "url": "https://github.com/koikurasu"
+    },
+    "repo": "https://github.com/koikurasu/sono",
+    "demo": "https://koikurasu.github.io/sono/",
+    "screens": [
+      {
+        "desktop": "/screens/sono/desktop.png",
+        "desktop_dark": "/screens/sono/desktop_dark.png",
+        "mobile": "/screens/sono/mobile.png",
+        "mobile_dark": "/screens/sono/mobile_dark.png"
+      }
+    ],
+    "module": {
+      "origin": "https://cdn.jsdelivr.net/gh/koikurasu/sono",
+      "main": "/mod.ts",
+      "srcdir": "/src",
+      "cms": "/_cms.ts",
+      "permissions": {
+        "import": ["cdn.sheetjs.com:443"]
+      },
+      "src": [
+        "/_data.json",
+        "/pages/about.md",
+        "/_data/images.ods"
       ]
     }
   }
