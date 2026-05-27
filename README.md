@@ -50,18 +50,6 @@ interface Theme {
   /** An object with the data to import the theme */
   module: {
     /**
-     * The module name. Used as the variable name to import the module:
-     * `import [name] from [specifier]`
-     */
-    name: string;
-
-    /**
-     * Module Id in the format [registry]/[package].
-     * Supported registered so far: denoland, jsdelivr
-     */
-    id: string;
-
-    /**
      * URL origin to create the import map
      * The URL MUST NOT include the version
      * it's obtained and updated automatically
@@ -77,7 +65,7 @@ interface Theme {
      */
     cms?: string;
 
-    /** An array of files to be copied to the src folder. */
+    /** An array of files to be copied (relative to srcdir). */
     src?: string[];
 
     /**
@@ -91,6 +79,12 @@ interface Theme {
 
     /** Optional imports for the import map. */
     imports?: Record<string, string>;
+
+    /** Deno permissions. */
+    permissions?: {
+      import?: string[],
+      net?: string[],
+    };
 
     /** Optional unstable flags for Deno. */
     unstable?: string[];
