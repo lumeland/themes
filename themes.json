@@ -316,7 +316,15 @@
       "src": [
         "/_data.json",
         "/pages/about.md",
-        "/_data/images.ods"
+        "/_data/images.ods",
+        "/_includes/sass/_gallery_variables.scss",
+        "/_includes/sass/_theme_variables.scss",
+        "/assets/images/gallery/748e6f4ad2d0a05aaff5b5fac6edefe2.jpg",
+        "/assets/images/gallery/At_the_Bazaar_by_Jean-Joseph_Benjamin-Constant.jpg",
+        "/assets/images/gallery/DP3572.jpeg",
+        "/assets/images/gallery/ep16.95.R.jpg",
+        "/assets/images/gallery/Louis_Eugène_Lambert_-_Family_of_Cats_and_a_Dog_in_the_Salon.jpg",
+        "/assets/images/gallery/Louis_Eugène_Lambert_Stolze_Katzenmutter.jpg"
       ]
     }
   }
