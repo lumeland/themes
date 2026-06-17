@@ -39,6 +39,9 @@ const sites: Site[] = [
   {
     id: "xeo",
   },
+  {
+    id: "tufte",
+  },
 ];
 
 for (const site of sites) {
