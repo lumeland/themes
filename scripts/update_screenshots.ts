@@ -3,7 +3,7 @@ import { close, makeScreenshot } from "./screenshot.ts";
 import { Theme } from "../theme.ts";
 
 const themesDir = "./themes";
-const filter = Deno.args[0];
+const filters = Deno.args;
 
 interface Snapshot {
   file: string;
@@ -20,12 +20,13 @@ for await (const entry of Deno.readDir(themesDir)) {
     continue;
   }
 
-  if (filter && entry.name !== filter) {
+  const manifest = join(themesDir, entry.name, "manifest.json");
+  const theme: Theme = JSON.parse(Deno.readTextFileSync(manifest));
+
+  if (filters.length && !filters.includes(theme.id)) {
     continue;
   }
 
-  const manifest = join(themesDir, entry.name, "manifest.json");
-  const theme: Theme = JSON.parse(Deno.readTextFileSync(manifest));
   const url = theme.demo;
 
   for (const screen of theme.screens) {
@@ -41,6 +42,7 @@ for await (const entry of Deno.readDir(themesDir)) {
 }
 
 for (const { url, file, mode, width, height } of screenshots) {
+  console.log(`Capture for ${file}`);
   await makeScreenshot(url, file, width, height, mode);
 }
 

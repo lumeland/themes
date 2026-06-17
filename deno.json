@@ -1,7 +1,7 @@
 {
   "tasks": {
     "build": "deno run -RW scripts/build.ts",
-    "update-screens": "deno run -RWN scripts/update_screenshots.ts"
+    "update-screens": "deno run -RWN --allow-env --allow-run scripts/update_screenshots.ts"
   },
   "lock": false,
   "imports": {
