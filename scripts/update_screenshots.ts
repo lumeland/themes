@@ -31,7 +31,7 @@ for await (const entry of Deno.readDir(themesDir)) {
 
   for (const screen of theme.screens) {
     for (const [key, value] of Object.entries(screen)) {
-      const file = join(themesDir, entry.name, value)
+      const file = join(themesDir, entry.name, value);
       const width = key.startsWith("mobile") ? 400 : 1200;
       const height = 800;
       const mode = key.endsWith("dark") ? "dark" : "light";

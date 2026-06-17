@@ -68,8 +68,8 @@ export interface Theme {
 
     /** Deno permissions. */
     permissions?: {
-      import?: string[],
-      net?: string[],
+      import?: string[];
+      net?: string[];
     };
 
     /** Optional unstable flags for Deno. */

@@ -16,7 +16,12 @@ for await (const entry of Deno.readDir(themesDir)) {
   for (const screen of theme.screens) {
     for (const [key, value] of Object.entries(screen)) {
       if (value.startsWith(".")) {
-        screen[key as keyof Screenshot] = join("/", themesDir, entry.name, value);
+        screen[key as keyof Screenshot] = join(
+          "/",
+          themesDir,
+          entry.name,
+          value,
+        );
       }
     }
   }
@@ -24,6 +29,6 @@ for await (const entry of Deno.readDir(themesDir)) {
   themes.push(theme);
 }
 
-themes.sort((a, b) => a.id.localeCompare(b.id))
+themes.sort((a, b) => a.id.localeCompare(b.id));
 
 Deno.writeTextFileSync("themes.json", JSON.stringify(themes, null, 2));
