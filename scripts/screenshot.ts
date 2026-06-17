@@ -1,7 +1,7 @@
 /// <reference lib="dom" />
 
-import { launch } from "jsr:@astral/astral@0.4.3";
-import { dirname } from "jsr:@std/path@1.0.0/dirname";
+import { launch } from "@astral/astral";
+import { dirname } from "@std/path/dirname";
 
 const browser = await launch();
 

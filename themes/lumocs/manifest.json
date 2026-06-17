@@ -1,0 +1,29 @@
+{
+  "id": "lumocs",
+  "name": "Lumocs",
+  "description": "Ready to use dark/light documentation theme",
+  "tags": ["documentation"],
+  "author": {
+    "name": "Hexagon",
+    "url": "https://hexagon.56k.guru/"
+  },
+  "repo": "https://github.com/Hexagon/lumocs",
+  "demo": "https://lumocs.56k.guru/",
+  "screens": [
+    {
+      "desktop": "./desktop.png",
+      "desktop_dark": "./desktop_dark.png",
+      "mobile": "./mobile.png",
+      "mobile_dark": "./mobile_dark.png"
+    }
+  ],
+  "module": {
+    "origin": "https://cdn.jsdelivr.net/gh/Hexagon/lumocs",
+    "main": "/mod.ts",
+    "srcdir": "/demo-repository/docs/src",
+    "src": [
+      "/_data.json",
+      "/index.md"
+    ]
+  }
+}

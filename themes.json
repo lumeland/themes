@@ -1,32 +1,64 @@
 [
   {
-    "id": "simple-wiki",
-    "name": "Simple Wiki",
-    "description": "Lume theme to create a wiki for notes or documentation",
-    "tags": ["simple", "wiki", "documentation"],
+    "id": "ebook",
+    "name": "e-Book",
+    "description": "A theme to create web e-books.",
+    "tags": [
+      "ebook"
+    ],
     "author": {
       "name": "Óscar Otero",
       "url": "https://oscarotero.com"
     },
-    "repo": "https://github.com/lumeland/theme-simple-wiki",
-    "demo": "https://lumeland.github.io/theme-simple-wiki/",
+    "repo": "https://github.com/lumeland/theme-ebook",
+    "demo": "https://lumeland.github.io/theme-ebook/",
     "screens": [
       {
-        "desktop": "/screens/simple_wiki/desktop.png",
-        "desktop_dark": "/screens/simple_wiki/desktop_dark.png",
-        "mobile": "/screens/simple_wiki/mobile.png",
-        "mobile_dark": "/screens/simple_wiki/mobile_dark.png"
+        "desktop": "/themes/ebook/desktop.png",
+        "mobile": "/themes/ebook/mobile.png"
       }
     ],
     "module": {
-      "origin": "https://cdn.jsdelivr.net/gh/lumeland/theme-simple-wiki",
+      "origin": "https://cdn.jsdelivr.net/gh/lumeland/theme-ebook",
       "main": "/mod.ts",
       "cms": "/_cms.ts",
       "srcdir": "/src",
       "src": [
+        "/img/favicon.svg",
+        "/img/cover.png",
         "/index.md",
-        "/404.md",
-        "/favicon.svg"
+        "/_data.yml"
+      ]
+    }
+  },
+  {
+    "id": "lumocs",
+    "name": "Lumocs",
+    "description": "Ready to use dark/light documentation theme",
+    "tags": [
+      "documentation"
+    ],
+    "author": {
+      "name": "Hexagon",
+      "url": "https://hexagon.56k.guru/"
+    },
+    "repo": "https://github.com/Hexagon/lumocs",
+    "demo": "https://lumocs.56k.guru/",
+    "screens": [
+      {
+        "desktop": "/themes/lumocs/desktop.png",
+        "desktop_dark": "/themes/lumocs/desktop_dark.png",
+        "mobile": "/themes/lumocs/mobile.png",
+        "mobile_dark": "/themes/lumocs/mobile_dark.png"
+      }
+    ],
+    "module": {
+      "origin": "https://cdn.jsdelivr.net/gh/Hexagon/lumocs",
+      "main": "/mod.ts",
+      "srcdir": "/demo-repository/docs/src",
+      "src": [
+        "/_data.json",
+        "/index.md"
       ]
     }
   },
@@ -34,7 +66,10 @@
     "id": "simple-blog",
     "name": "Simple Blog",
     "description": "Lume theme to create a blog",
-    "tags": ["simple", "blog"],
+    "tags": [
+      "simple",
+      "blog"
+    ],
     "author": {
       "name": "Óscar Otero",
       "url": "https://oscarotero.com"
@@ -43,10 +78,10 @@
     "demo": "https://lumeland.github.io/theme-simple-blog/",
     "screens": [
       {
-        "desktop": "/screens/simple_blog/desktop.png",
-        "desktop_dark": "/screens/simple_blog/desktop_dark.png",
-        "mobile": "/screens/simple_blog/mobile.png",
-        "mobile_dark": "/screens/simple_blog/mobile_dark.png"
+        "desktop": "/themes/simple-blog/desktop.png",
+        "desktop_dark": "/themes/simple-blog/desktop_dark.png",
+        "mobile": "/themes/simple-blog/mobile.png",
+        "mobile_dark": "/themes/simple-blog/mobile_dark.png"
       }
     ],
     "module": {
@@ -66,7 +101,11 @@
     "id": "simple-epub",
     "name": "Book (.epub)",
     "description": "Lume theme to create a book in ePub format",
-    "tags": ["simple", "epub", "book"],
+    "tags": [
+      "simple",
+      "epub",
+      "book"
+    ],
     "author": {
       "name": "Óscar Otero",
       "url": "https://oscarotero.com"
@@ -74,7 +113,7 @@
     "repo": "https://github.com/lumeland/simple-epub",
     "screens": [
       {
-        "desktop": "/screens/epub/desktop.png"
+        "desktop": "/themes/epub/desktop.png"
       }
     ],
     "module": {
@@ -94,7 +133,11 @@
     "id": "simple-me",
     "name": "Simple Me",
     "description": "Lume theme to create a contact page with bio and links",
-    "tags": ["simple", "links", "bio"],
+    "tags": [
+      "simple",
+      "links",
+      "bio"
+    ],
     "author": {
       "name": "Óscar Otero",
       "url": "https://oscarotero.com"
@@ -103,10 +146,10 @@
     "demo": "https://lumeland.github.io/theme-simple-me/",
     "screens": [
       {
-        "desktop": "/screens/simple_me/desktop.png",
-        "desktop_dark": "/screens/simple_me/desktop_dark.png",
-        "mobile": "/screens/simple_me/mobile.png",
-        "mobile_dark": "/screens/simple_me/mobile_dark.png"
+        "desktop": "/themes/simple-me/desktop.png",
+        "desktop_dark": "/themes/simple-me/desktop_dark.png",
+        "mobile": "/themes/simple-me/mobile.png",
+        "mobile_dark": "/themes/simple-me/mobile_dark.png"
       }
     ],
     "module": {
@@ -122,10 +165,95 @@
     }
   },
   {
+    "id": "simple-wiki",
+    "name": "Simple Wiki",
+    "description": "Lume theme to create a wiki for notes or documentation",
+    "tags": [
+      "simple",
+      "wiki",
+      "documentation"
+    ],
+    "author": {
+      "name": "Óscar Otero",
+      "url": "https://oscarotero.com"
+    },
+    "repo": "https://github.com/lumeland/theme-simple-wiki",
+    "demo": "https://lumeland.github.io/theme-simple-wiki/",
+    "screens": [
+      {
+        "desktop": "/themes/simple_wiki/desktop.png",
+        "desktop_dark": "/themes/simple_wiki/desktop_dark.png",
+        "mobile": "/themes/simple_wiki/mobile.png",
+        "mobile_dark": "/themes/simple_wiki/mobile_dark.png"
+      }
+    ],
+    "module": {
+      "origin": "https://cdn.jsdelivr.net/gh/lumeland/theme-simple-wiki",
+      "main": "/mod.ts",
+      "cms": "/_cms.ts",
+      "srcdir": "/src",
+      "src": [
+        "/index.md",
+        "/404.md",
+        "/favicon.svg"
+      ]
+    }
+  },
+  {
+    "id": "sono",
+    "name": "Soño",
+    "description": "An image gallery theme for Lume",
+    "tags": [
+      "gallery"
+    ],
+    "author": {
+      "name": "koikurasu",
+      "url": "https://github.com/koikurasu"
+    },
+    "repo": "https://github.com/koikurasu/sono",
+    "demo": "https://koikurasu.github.io/sono/",
+    "screens": [
+      {
+        "desktop": "/themes/sono/desktop.png",
+        "desktop_dark": "/themes/sono/desktop_dark.png",
+        "mobile": "/themes/sono/mobile.png",
+        "mobile_dark": "/themes/sono/mobile_dark.png"
+      }
+    ],
+    "module": {
+      "origin": "https://cdn.jsdelivr.net/gh/koikurasu/sono",
+      "main": "/mod.ts",
+      "srcdir": "/src",
+      "cms": "/_cms.ts",
+      "permissions": {
+        "import": [
+          "cdn.sheetjs.com:443"
+        ]
+      },
+      "src": [
+        "/_data.json",
+        "/pages/about.md",
+        "/_data/images.ods",
+        "/_includes/sass/_gallery_variables.scss",
+        "/_includes/sass/_theme_variables.scss",
+        "/assets/images/gallery/748e6f4ad2d0a05aaff5b5fac6edefe2.jpg",
+        "/assets/images/gallery/At_the_Bazaar_by_Jean-Joseph_Benjamin-Constant.jpg",
+        "/assets/images/gallery/DP3572.jpeg",
+        "/assets/images/gallery/ep16.95.R.jpg",
+        "/assets/images/gallery/Louis_Eugène_Lambert_-_Family_of_Cats_and_a_Dog_in_the_Salon.jpg",
+        "/assets/images/gallery/Louis_Eugène_Lambert_Stolze_Katzenmutter.jpg"
+      ]
+    }
+  },
+  {
     "id": "top",
     "name": "Top",
     "description": "A theme to build a website for a tech event.",
-    "tags": ["event", "tech", "landing"],
+    "tags": [
+      "event",
+      "tech",
+      "landing"
+    ],
     "author": {
       "name": "Óscar Otero",
       "url": "https://oscarotero.com"
@@ -134,8 +262,8 @@
     "demo": "https://tarugoconf.github.io/top/",
     "screens": [
       {
-        "desktop": "/screens/top/desktop.png",
-        "mobile": "/screens/top/mobile.png"
+        "desktop": "/themes/top/desktop.png",
+        "mobile": "/themes/top/mobile.png"
       }
     ],
     "module": {
@@ -160,179 +288,13 @@
     }
   },
   {
-    "id": "ebook",
-    "name": "e-Book",
-    "description": "A theme to create web e-books.",
-    "tags": ["ebook"],
-    "author": {
-      "name": "Óscar Otero",
-      "url": "https://oscarotero.com"
-    },
-    "repo": "https://github.com/lumeland/theme-ebook",
-    "demo": "https://lumeland.github.io/theme-ebook/",
-    "screens": [
-      {
-        "desktop": "/screens/ebook/desktop.png",
-        "mobile": "/screens/ebook/mobile.png"
-      }
-    ],
-    "module": {
-      "origin": "https://cdn.jsdelivr.net/gh/lumeland/theme-ebook",
-      "main": "/mod.ts",
-      "cms": "/_cms.ts",
-      "srcdir": "/src",
-      "src": [
-        "/img/favicon.svg",
-        "/img/cover.png",
-        "/index.md",
-        "/_data.yml"
-      ]
-    }
-  },
-  {
-    "id": "twitter-archive",
-    "name": "Twitter archive",
-    "description": "A theme to host your Twitter/X archive.",
-    "tags": ["twitter", "archive"],
-    "author": {
-      "name": "Óscar Otero",
-      "url": "https://oscarotero.com"
-    },
-    "repo": "https://github.com/lumeland/theme-simple-twitter",
-    "demo": "https://twitter.oscarotero.gal",
-    "screens": [
-      {
-        "desktop": "/screens/simple_twitter/desktop.png",
-        "desktop_dark": "/screens/simple_twitter/desktop_dark.png",
-        "mobile": "/screens/simple_twitter/mobile.png",
-        "mobile_dark": "/screens/simple_twitter/mobile_dark.png"
-      }
-    ],
-    "module": {
-      "origin": "https://cdn.jsdelivr.net/gh/lumeland/theme-simple-twitter",
-      "main": "/mod.ts",
-      "cms": "/_cms.ts",
-      "srcdir": "/src",
-      "src": [
-        "/uploads/favicon.svg",
-        "/_data/tweets.js",
-        "/_data.yml"
-      ]
-    }
-  },
-  {
-    "id": "xeo",
-    "name": "Xeo",
-    "description": "A deluxe Lume theme",
-    "tags": ["blog", "custom", "fonts"],
-    "author": {
-      "name": "Ricky de Laveaga",
-      "url": "https://rdela.com"
-    },
-    "repo": "https://github.com/famebot/xeo",
-    "demo": "https://xeo.land",
-    "screens": [
-      {
-        "desktop": "/screens/xeo/desktop.png",
-        "desktop_dark": "/screens/xeo/desktop_dark.png",
-        "mobile": "/screens/xeo/mobile.png",
-        "mobile_dark": "/screens/xeo/mobile_dark.png"
-      }
-    ],
-    "module": {
-      "origin": "https://cdn.jsdelivr.net/gh/famebot/xeo",
-      "main": "/mod.ts",
-      "cms": "/_cms.ts",
-      "srcdir": "/",
-      "src": [
-        "/_data.yml",
-        "/404.md",
-        "/favicon.svg",
-        "/pages/contact.md",
-        "/posts/2025-12-solstice.md",
-        "/posts/2161-01-16-13-00-00-stardate-foundation.md",
-        "/posts/differences.md",
-        "/posts/instructions.md",
-        "/posts/no-title/index.md"
-      ]
-    }
-  },
-  {
-    "id": "lumocs",
-    "name": "Lumocs",
-    "description": "Ready to use dark/light documentation theme",
-    "tags": ["documentation"],
-    "author": {
-      "name": "Hexagon",
-      "url": "https://hexagon.56k.guru/"
-    },
-    "repo": "https://github.com/Hexagon/lumocs",
-    "demo": "https://lumocs.56k.guru/",
-    "screens": [
-      {
-        "desktop": "/screens/lumocs/desktop.png",
-        "desktop_dark": "/screens/lumocs/desktop_dark.png",
-        "mobile": "/screens/lumocs/mobile.png",
-        "mobile_dark": "/screens/lumocs/mobile_dark.png"
-      }
-    ],
-    "module": {
-      "origin": "https://cdn.jsdelivr.net/gh/Hexagon/lumocs",
-      "main": "/mod.ts",
-      "srcdir": "/demo-repository/docs/src",
-      "src": [
-        "/_data.json",
-        "/index.md"
-      ]
-    }
-  },
-  {
-    "id": "sono",
-    "name": "Soño",
-    "description": "An image gallery theme for Lume",
-    "tags": ["gallery"],
-    "author": {
-      "name": "koikurasu",
-      "url": "https://github.com/koikurasu"
-    },
-    "repo": "https://github.com/koikurasu/sono",
-    "demo": "https://koikurasu.github.io/sono/",
-    "screens": [
-      {
-        "desktop": "/screens/sono/desktop.png",
-        "desktop_dark": "/screens/sono/desktop_dark.png",
-        "mobile": "/screens/sono/mobile.png",
-        "mobile_dark": "/screens/sono/mobile_dark.png"
-      }
-    ],
-    "module": {
-      "origin": "https://cdn.jsdelivr.net/gh/koikurasu/sono",
-      "main": "/mod.ts",
-      "srcdir": "/src",
-      "cms": "/_cms.ts",
-      "permissions": {
-        "import": ["cdn.sheetjs.com:443"]
-      },
-      "src": [
-        "/_data.json",
-        "/pages/about.md",
-        "/_data/images.ods",
-        "/_includes/sass/_gallery_variables.scss",
-        "/_includes/sass/_theme_variables.scss",
-        "/assets/images/gallery/748e6f4ad2d0a05aaff5b5fac6edefe2.jpg",
-        "/assets/images/gallery/At_the_Bazaar_by_Jean-Joseph_Benjamin-Constant.jpg",
-        "/assets/images/gallery/DP3572.jpeg",
-        "/assets/images/gallery/ep16.95.R.jpg",
-        "/assets/images/gallery/Louis_Eugène_Lambert_-_Family_of_Cats_and_a_Dog_in_the_Salon.jpg",
-        "/assets/images/gallery/Louis_Eugène_Lambert_Stolze_Katzenmutter.jpg"
-      ]
-    }
-  },
-  {
     "id": "tufte",
     "name": "Tufte",
     "description": "General-purpose theme based on Tufte CSS",
-    "tags": ["general", "blog"],
+    "tags": [
+      "general",
+      "blog"
+    ],
     "author": {
       "name": "Ethan Marks",
       "url": "https://github.com/ethmarks"
@@ -341,8 +303,8 @@
     "demo": "https://ethmarks.github.io/lume_tufte/",
     "screens": [
       {
-        "desktop": "/screens/tufte/desktop.png",
-        "mobile": "/screens/tufte/mobile.png"
+        "desktop": "/themes/tufte/desktop.png",
+        "mobile": "/themes/tufte/mobile.png"
       }
     ],
     "module": {
@@ -362,6 +324,81 @@
         "/uploads/cms.png",
         "/uploads/seattle.jpg",
         "/uploads/quarry.jpg"
+      ]
+    }
+  },
+  {
+    "id": "twitter-archive",
+    "name": "Twitter archive",
+    "description": "A theme to host your Twitter/X archive.",
+    "tags": [
+      "twitter",
+      "archive"
+    ],
+    "author": {
+      "name": "Óscar Otero",
+      "url": "https://oscarotero.com"
+    },
+    "repo": "https://github.com/lumeland/theme-simple-twitter",
+    "demo": "https://twitter.oscarotero.gal",
+    "screens": [
+      {
+        "desktop": "/themes/twitter-archive/desktop.png",
+        "desktop_dark": "/themes/twitter-archive/desktop_dark.png",
+        "mobile": "/themes/twitter-archive/mobile.png",
+        "mobile_dark": "/themes/twitter-archive/mobile_dark.png"
+      }
+    ],
+    "module": {
+      "origin": "https://cdn.jsdelivr.net/gh/lumeland/theme-simple-twitter",
+      "main": "/mod.ts",
+      "cms": "/_cms.ts",
+      "srcdir": "/src",
+      "src": [
+        "/uploads/favicon.svg",
+        "/_data/tweets.js",
+        "/_data.yml"
+      ]
+    }
+  },
+  {
+    "id": "xeo",
+    "name": "Xeo",
+    "description": "A deluxe Lume theme",
+    "tags": [
+      "blog",
+      "custom",
+      "fonts"
+    ],
+    "author": {
+      "name": "Ricky de Laveaga",
+      "url": "https://rdela.com"
+    },
+    "repo": "https://github.com/famebot/xeo",
+    "demo": "https://xeo.land",
+    "screens": [
+      {
+        "desktop": "/themes/xeo/desktop.png",
+        "desktop_dark": "/themes/xeo/desktop_dark.png",
+        "mobile": "/themes/xeo/mobile.png",
+        "mobile_dark": "/themes/xeo/mobile_dark.png"
+      }
+    ],
+    "module": {
+      "origin": "https://cdn.jsdelivr.net/gh/famebot/xeo",
+      "main": "/mod.ts",
+      "cms": "/_cms.ts",
+      "srcdir": "/",
+      "src": [
+        "/_data.yml",
+        "/404.md",
+        "/favicon.svg",
+        "/pages/contact.md",
+        "/posts/2025-12-solstice.md",
+        "/posts/2161-01-16-13-00-00-stardate-foundation.md",
+        "/posts/differences.md",
+        "/posts/instructions.md",
+        "/posts/no-title/index.md"
       ]
     }
   }

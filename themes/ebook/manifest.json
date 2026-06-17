@@ -1,0 +1,30 @@
+{
+  "id": "ebook",
+  "name": "e-Book",
+  "description": "A theme to create web e-books.",
+  "tags": ["ebook"],
+  "author": {
+    "name": "Óscar Otero",
+    "url": "https://oscarotero.com"
+  },
+  "repo": "https://github.com/lumeland/theme-ebook",
+  "demo": "https://lumeland.github.io/theme-ebook/",
+  "screens": [
+    {
+      "desktop": "./desktop.png",
+      "mobile": "./mobile.png"
+    }
+  ],
+  "module": {
+    "origin": "https://cdn.jsdelivr.net/gh/lumeland/theme-ebook",
+    "main": "/mod.ts",
+    "cms": "/_cms.ts",
+    "srcdir": "/src",
+    "src": [
+      "/img/favicon.svg",
+      "/img/cover.png",
+      "/index.md",
+      "/_data.yml"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "xeo",
+  "name": "Xeo",
+  "description": "A deluxe Lume theme",
+  "tags": ["blog", "custom", "fonts"],
+  "author": {
+    "name": "Ricky de Laveaga",
+    "url": "https://rdela.com"
+  },
+  "repo": "https://github.com/famebot/xeo",
+  "demo": "https://xeo.land",
+  "screens": [
+    {
+      "desktop": "./desktop.png",
+      "desktop_dark": "./desktop_dark.png",
+      "mobile": "./mobile.png",
+      "mobile_dark": "./mobile_dark.png"
+    }
+  ],
+  "module": {
+    "origin": "https://cdn.jsdelivr.net/gh/famebot/xeo",
+    "main": "/mod.ts",
+    "cms": "/_cms.ts",
+    "srcdir": "/",
+    "src": [
+      "/_data.yml",
+      "/404.md",
+      "/favicon.svg",
+      "/pages/contact.md",
+      "/posts/2025-12-solstice.md",
+      "/posts/2161-01-16-13-00-00-stardate-foundation.md",
+      "/posts/differences.md",
+      "/posts/instructions.md",
+      "/posts/no-title/index.md"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "simple-wiki",
+  "name": "Simple Wiki",
+  "description": "Lume theme to create a wiki for notes or documentation",
+  "tags": ["simple", "wiki", "documentation"],
+  "author": {
+    "name": "Óscar Otero",
+    "url": "https://oscarotero.com"
+  },
+  "repo": "https://github.com/lumeland/theme-simple-wiki",
+  "demo": "https://lumeland.github.io/theme-simple-wiki/",
+  "screens": [
+    {
+      "desktop": "./desktop.png",
+      "desktop_dark": "./desktop_dark.png",
+      "mobile": "./mobile.png",
+      "mobile_dark": "./mobile_dark.png"
+    }
+  ],
+  "module": {
+    "origin": "https://cdn.jsdelivr.net/gh/lumeland/theme-simple-wiki",
+    "main": "/mod.ts",
+    "cms": "/_cms.ts",
+    "srcdir": "/src",
+    "src": [
+      "/index.md",
+      "/404.md",
+      "/favicon.svg"
+    ]
+  }
+}

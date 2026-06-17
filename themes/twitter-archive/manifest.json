@@ -1,0 +1,31 @@
+{
+  "id": "twitter-archive",
+  "name": "Twitter archive",
+  "description": "A theme to host your Twitter/X archive.",
+  "tags": ["twitter", "archive"],
+  "author": {
+    "name": "Óscar Otero",
+    "url": "https://oscarotero.com"
+  },
+  "repo": "https://github.com/lumeland/theme-simple-twitter",
+  "demo": "https://twitter.oscarotero.gal",
+  "screens": [
+    {
+      "desktop": "./desktop.png",
+      "desktop_dark": "./desktop_dark.png",
+      "mobile": "./mobile.png",
+      "mobile_dark": "./mobile_dark.png"
+    }
+  ],
+  "module": {
+    "origin": "https://cdn.jsdelivr.net/gh/lumeland/theme-simple-twitter",
+    "main": "/mod.ts",
+    "cms": "/_cms.ts",
+    "srcdir": "/src",
+    "src": [
+      "/uploads/favicon.svg",
+      "/_data/tweets.js",
+      "/_data.yml"
+    ]
+  }
+}

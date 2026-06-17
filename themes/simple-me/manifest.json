@@ -1,0 +1,31 @@
+{
+  "id": "simple-me",
+  "name": "Simple Me",
+  "description": "Lume theme to create a contact page with bio and links",
+  "tags": ["simple", "links", "bio"],
+  "author": {
+    "name": "Óscar Otero",
+    "url": "https://oscarotero.com"
+  },
+  "repo": "https://github.com/lumeland/theme-simple-me",
+  "demo": "https://lumeland.github.io/theme-simple-me/",
+  "screens": [
+    {
+      "desktop": "./desktop.png",
+      "desktop_dark": "./desktop_dark.png",
+      "mobile": "./mobile.png",
+      "mobile_dark": "./mobile_dark.png"
+    }
+  ],
+  "module": {
+    "origin": "https://cdn.jsdelivr.net/gh/lumeland/theme-simple-me",
+    "main": "/mod.ts",
+    "cms": "/_cms.ts",
+    "srcdir": "/src",
+    "src": [
+      "/index.yml",
+      "/avatar.jpg",
+      "/favicon.svg"
+    ]
+  }
+}

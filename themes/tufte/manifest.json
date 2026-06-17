@@ -1,0 +1,37 @@
+{
+  "id": "tufte",
+  "name": "Tufte",
+  "description": "General-purpose theme based on Tufte CSS",
+  "tags": ["general", "blog"],
+  "author": {
+    "name": "Ethan Marks",
+    "url": "https://github.com/ethmarks"
+  },
+  "repo": "https://github.com/ethmarks/lume_tufte",
+  "demo": "https://ethmarks.github.io/lume_tufte/",
+  "screens": [
+    {
+      "desktop": "./desktop.png",
+      "mobile": "./mobile.png"
+    }
+  ],
+  "module": {
+    "origin": "https://cdn.jsdelivr.net/gh/ethmarks/lume_tufte",
+    "main": "/mod.ts",
+    "srcdir": "/src",
+    "cms": "/_cms.ts",
+    "src": [
+      "/_data.yml",
+      "/index.md",
+      "/blog.md",
+      "/about.md",
+      "/404.md",
+      "/blog/_data.yml",
+      "/blog/usage.md",
+      "/uploads/favicon.svg",
+      "/uploads/cms.png",
+      "/uploads/seattle.jpg",
+      "/uploads/quarry.jpg"
+    ]
+  }
+}
