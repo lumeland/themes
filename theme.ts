@@ -60,8 +60,8 @@ export interface Theme {
     /** An array of files to be copied (relative to srcdir). */
     src?: string[];
 
-    /** Optional compile options to include in the deno.json file. */
-    compileOptions?: CompilerOptions;
+    /** Optional compiler options to include in the deno.json file. */
+    compilerOptions?: CompilerOptions;
 
     /** Optional imports for the import map. */
     imports?: Record<string, string>;
