@@ -1,0 +1,42 @@
+{
+  "id": "sono",
+  "name": "Soño",
+  "description": "An image gallery theme for Lume",
+  "tags": ["gallery"],
+  "author": {
+    "name": "koikurasu",
+    "url": "https://github.com/koikurasu"
+  },
+  "repo": "https://github.com/koikurasu/sono",
+  "demo": "https://koikurasu.github.io/sono/",
+  "screens": [
+    {
+      "desktop": "./desktop.png",
+      "desktop_dark": "./desktop_dark.png",
+      "mobile": "./mobile.png",
+      "mobile_dark": "./mobile_dark.png"
+    }
+  ],
+  "module": {
+    "origin": "https://cdn.jsdelivr.net/gh/koikurasu/sono",
+    "main": "/mod.ts",
+    "srcdir": "/src",
+    "cms": "/_cms.ts",
+    "permissions": {
+      "import": ["cdn.sheetjs.com:443"]
+    },
+    "src": [
+      "/_data.json",
+      "/pages/about.md",
+      "/_data/images.ods",
+      "/_includes/sass/_gallery_variables.scss",
+      "/_includes/sass/_theme_variables.scss",
+      "/assets/images/gallery/748e6f4ad2d0a05aaff5b5fac6edefe2.jpg",
+      "/assets/images/gallery/At_the_Bazaar_by_Jean-Joseph_Benjamin-Constant.jpg",
+      "/assets/images/gallery/DP3572.jpeg",
+      "/assets/images/gallery/ep16.95.R.jpg",
+      "/assets/images/gallery/Louis_Eugène_Lambert_-_Family_of_Cats_and_a_Dog_in_the_Salon.jpg",
+      "/assets/images/gallery/Louis_Eugène_Lambert_Stolze_Katzenmutter.jpg"
+    ]
+  }
+}

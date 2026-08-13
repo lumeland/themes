@@ -1,0 +1,32 @@
+{
+  "id": "simple-blog",
+  "name": "Simple Blog",
+  "description": "Lume theme to create a blog",
+  "tags": ["simple", "blog"],
+  "author": {
+    "name": "Óscar Otero",
+    "url": "https://oscarotero.com"
+  },
+  "repo": "https://github.com/lumeland/theme-simple-blog",
+  "demo": "https://lumeland.github.io/theme-simple-blog/",
+  "screens": [
+    {
+      "desktop": "./desktop.png",
+      "desktop_dark": "./desktop_dark.png",
+      "mobile": "./mobile.png",
+      "mobile_dark": "./mobile_dark.png"
+    }
+  ],
+  "module": {
+    "origin": "https://cdn.jsdelivr.net/gh/lumeland/theme-simple-blog",
+    "main": "/mod.ts",
+    "cms": "/_cms.ts",
+    "srcdir": "/src",
+    "src": [
+      "/_data.yml",
+      "/404.md",
+      "/favicon.png",
+      "/posts/instructions.md"
+    ]
+  }
+}

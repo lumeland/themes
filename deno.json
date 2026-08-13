@@ -1,6 +1,11 @@
 {
   "tasks": {
-    "update": "deno run -A scripts/run.ts"
+    "build": "deno run -RW scripts/build.ts",
+    "update-screens": "deno run -RWN --allow-env --allow-run scripts/update_screenshots.ts"
   },
-  "lock": false
+  "lock": false,
+  "imports": {
+    "@astral/astral": "jsr:@astral/astral@0.5.6",
+    "@std/path": "jsr:@std/path@1.1.5"
+  }
 }
