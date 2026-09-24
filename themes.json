@@ -246,6 +246,45 @@
     }
   },
   {
+    "id": "tech-cv",
+    "name": "Tech CV",
+    "description": "A theme to create a Tech CV.",
+    "tags": [
+      "cv"
+    ],
+    "author": {
+      "name": "Óscar Otero",
+      "url": "https://oscarotero.com"
+    },
+    "repo": "https://codeberg.org/lume/theme-tech-cv",
+    "demo": "https://lume.codeberg.page/theme-tech-cv/",
+    "screens": [
+      {
+        "desktop": "/themes/tech-cv/desktop.png",
+        "desktop_dark": "/themes/tech-cv/desktop_dark.png",
+        "mobile": "/themes/tech-cv/mobile.png",
+        "mobile_dark": "/themes/tech-cv/mobile_dark.png"
+      }
+    ],
+    "module": {
+      "origin": "https://cdn.jsdelivr.net/gh/lumeland/theme-tech-cv",
+      "main": "/mod.ts",
+      "cms": "/_cms.ts",
+      "permissions": {
+        "net": [
+          "fonts.googleapis.com:443",
+          "fonts.gstatic.com:443"
+        ]
+      },
+      "src": [
+        "/files/avatar.jpg",
+        "/_data/cv.yml",
+        "/style.css",
+        "/index.vto"
+      ]
+    }
+  },
+  {
     "id": "top",
     "name": "Top",
     "description": "A theme to build a website for a tech event.",
